@@ -28,6 +28,12 @@ What things you need to install the software and how to install them
 	  `status` VARCHAR(45) NULL,
 	  PRIMARY KEY (`id`),
 	  UNIQUE INDEX `id_UNIQUE` (`id` ASC));
+	  
+	INSERT INTO `jira_test`.`accounts` (`username`, `password`, `status`) VALUES ('demo@katalon.com', '8eml3nBz19rJ6kP8oCYK', 'active');
+	INSERT INTO `jira_test`.`accounts` (`username`, `password`, `status`) VALUES ('tom@katalon.com', '1QpnA1G2cOTSJQLE4U3A', 'active');
+	INSERT INTO `jira_test`.`accounts` (`username`, `password`, `status`) VALUES ('jerry@katalon.com', 'K@tAl0n@#1304', 'inactive');
+	INSERT INTO `jira_test`.`accounts` (`username`, `password`, `status`) VALUES ('bella@katalon.com', 'jira@2018', 'invalid');
+
 ```
 
 A step by step series of examples that tell you have to get a development env running
