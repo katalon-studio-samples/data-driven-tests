@@ -35,6 +35,20 @@ What things you need to install the software and how to install them
 	INSERT INTO `jira_test`.`accounts` (`username`, `password`, `status`) VALUES ('bella@katalon.com', 'jira@2018', 'invalid');
 
 ```
+#### Excel
+- Sheet: valid_accounts
+```
+	Username	        Password
+	demo@katalon.com	8eml3nBz19rJ6kP8oCYK
+	tom@katalon.com	        1QpnA1G2cOTSJQLE4U3A
+```
+- Sheet: invalid_accounts
+```
+	Username	        Password
+	jerry@katalon.com	K@tAl0n@#1304
+	bella@katalon.com	jira@2018
+```
+
 
 A step by step series of examples that tell you have to get a development env running
 
