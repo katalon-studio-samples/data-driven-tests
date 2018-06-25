@@ -19,6 +19,16 @@ What things you need to install the software and how to install them
 #### MySQL
 - User: demouser/demouser@2018
 - Database: jira_test
+	- Table: accounts
+```
+	CREATE TABLE `jira_test`.`accounts` (
+	  `username` VARCHAR(45) NULL,
+	  `password` VARCHAR(45) NULL,
+	  `status` VARCHAR(45) NULL,
+	  `id` INT GENERATED ALWAYS AS (),
+	  PRIMARY KEY (`id`),
+	  UNIQUE INDEX `id_UNIQUE` (`id` ASC));
+```
 
 A step by step series of examples that tell you have to get a development env running
 
