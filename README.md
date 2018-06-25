@@ -72,23 +72,15 @@ Step 3:
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
 The example in this project has different test data set sources for the data-driven approach:
 - xlsx (Excel)
 - csv (CSV files with common delimeters)
 - datasource (MySQL)
 - internal datasource (2-dimension flat file)
+
 In Katalon Studio, data-driven approach happens at TestSuite level so the example contains different test suites for each data set sources.
 
-Test cases at this section help users understanding:
-- How to create RESTful Web services object at Object Repository with parameters so that it can be tested with different data set using data-driven approach
-- How to create test cases that can be reused in different test scenario
-- How to create test cases with BDD mindset
-- How to use built-in keywords together with extended scripts such as assertj to verify the response information.
-- How to group API end-points
-
 ### Object Repository
-Webservice Object at the Object Repository can be executed with its hard coding test data. Those object having test data as parameters cannot be executed correctly.
 
 ### Break down into end to end tests
 
