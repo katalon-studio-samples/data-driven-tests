@@ -58,9 +58,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Executing a Test Case
 ![Execute a simple test case](https://github.com/katalon-studio-samples/data-driven-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20with%20data%20driven.png?raw=true)
-1. Expand the Test Cases structure, where all the test cases are stored.
-2. Select the test case you want to execute
-3. Choose the browser for executing the test case
+1. The test case that is parameterized to support data-driven test
+2. The test suite contains the test case under test
+3. Data files created with different data souces
+4. The test case selected in the test suite
+5. Data file selected for the test case
+6. Data binding between the data file and the test case parameters
 
 At the end of this README, you will find additional ways to execute automation test cases. 
 
