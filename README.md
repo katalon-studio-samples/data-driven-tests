@@ -65,11 +65,26 @@ These instructions will get you a copy of the project up and running on your loc
 At the end of this README, you will find additional ways to execute automation test cases. 
 
 ## Test Scenarios
+Below is the list of all the available test cases in this project relating to the test scenarios as described. Simply select the test case you want to run in Katalon Studio and execute accordingly. You can also make additional changes in these test cases to get familiar with automation testing and specifically Katalon Studio. 
+### Story: Login feature
+```Gherkin     
+     User story
+         As a Jira user, I would like to be able to login the Jira system, so that I could manage Jira tickets.
+ 
+         Scenario Outline: Login successfully
+           Given The Login page is loaded successfully
+           When I login the system with valid <username> and <password>
+           Then The Dashboard Page is loaded successfully
+         
+         Examples:
+          | username     | password  |
+          |	tom      | jira@2018 |
+          |	jerry    | jira@2019 |
+ ```         
 The example in this project has different test data set sources for the data-driven approach:
 - xlsx (Excel)
 - csv (CSV files with common delimeters)
 - datasource (MySQL)
 - internal datasource (2-dimension flat file)
 
-In Katalon Studio, data-driven approach happens at TestSuite level so the example contains different test suites for each data set sources.
-
+In Katalon Studio, data-driven approach happens at TestSuite level so the example contains different test suites for each data set sources
