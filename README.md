@@ -68,7 +68,6 @@ These instructions will get you a copy of the project up and running on your loc
 At the end of this README, you will find additional ways to execute automation test cases. 
 
 ## Test Scenarios
-Below is the list of all the available test cases in this project relating to the test scenarios as described. Simply select the test case you want to run in Katalon Studio and execute accordingly. You can also make additional changes in these test cases to get familiar with automation testing and specifically Katalon Studio. 
 ### Story: Login feature
 ```Gherkin     
      User story
@@ -91,3 +90,34 @@ The example in this project has different test data set sources for the data-dri
 - internal datasource (2-dimension flat file)
 
 In Katalon Studio, data-driven approach happens at TestSuite level so the example contains different test suites for each data set sources
+## Advanced Execution 
+### Execute an Advanced Test Case
+ ![Execute an advance test case](https://github.com/katalon-studio-samples/jira-api-tests/blob/master/Tutorials/Figures/Execute%20an%20advance%20test%20case.png?raw=true)
+ The advance test cases in this example repository demonstrate how to set up the test project with Page Object Design Pattern approach to reduce the maintenance cost as well as increase the reusability of testing scripts.
+1. Open EXECUTABLE folder
+2. Select the test case you want to execute
+3. Choose the browser for executing the test case
+ 
+ ### Execute a Test Suite with Data-Driven
+ ![Execute a test suite with data-driven](https://github.com/katalon-studio-samples/jira-api-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20with%20data%20driven.png?raw=true)
+ This example demonstrates how to apply data-driven approach to test execution with Katalon Studio. 
+1. Select the test suite
+2. Select the test case you want to apply data-driven approach
+3. Select data file
+7. Bind test data and test case's parameters
+ 
+ ### Execute a Test Suite
+ ![Execute a test collection](https://github.com/katalon-studio-samples/jira-api-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite.png?raw=true)
+ This example demonstrates how to execute a test suite collection.
+1. Select the Test suite
+2. Add test cases into the test suite 
+3. Execute the test suite
+
+## See Also
+Update configurations for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon Analytics](https://docs.katalon.com/x/KRhO)
+
+Katalon Documentation: http://docs.katalon.com/, especially some [Tips and Tricks](https://docs.katalon.com/x/PgXR) to run a successful automation test. 
+
+Katalon Forum: https://forum.katalon.com/
+
+Katalon Business Support: https://www.katalon.com/support-service-options/
