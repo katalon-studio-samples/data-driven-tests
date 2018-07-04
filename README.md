@@ -57,7 +57,7 @@ These instructions will get you a copy of the project up and running on your loc
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
 
 ### Executing a Test Case
-![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png?raw=true)
+![Execute a simple test case](https://github.com/katalon-studio-samples/data-driven-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20with%20data%20driven.png?raw=true)
 1. Expand the Test Cases structure, where all the test cases are stored.
 2. Select the test case you want to execute
 3. Choose the browser for executing the test case
