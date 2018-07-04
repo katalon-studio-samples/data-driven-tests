@@ -1,18 +1,19 @@
-# katalon-studio-samples
-## DATA DRIVEN TESTS
-The **data-driven-tests** is a testing project with examples of performing functional automation test on JIRA Web Application using Katalon Studio with Data driven approaches. The examples in this project are various from simple to advance tests:
+# Katalon Studio Samples: Data Driven Tests
+Katalon Studio is a free and easy-to-use automated functional and regression testing platform. It provides users the ability to implement full automated testing solutions for their application projects with minimal engineering and programming skill requirements.
+______
+The **data-driven-tests** demonstrates how to apply data-driven in automation testing with Katalon Studio.
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+These instructions will get you a copy of the project up and running on your local machine.
 ### Prerequisites
+- [Katalon Studio](https://www.katalon.com/) - [Installation and Setup](https://docs.katalon.com/x/HwAM)
+- Internet access
+- Application Under Test (AUT):
+     + Jira cloud: https://katalon.atlassian.net/
+     + Account: demo@katalon.com/8eml3nBz19rJ6kP8oCYK
+- [MySQL](https://dev.mysql.com/)    
 
-What things you need to install the software and how to install them
 
-- [Katalon Studio](https://www.katalon.com/)
-- Permission access to [Jira System](https://katalon.atlassian.net) (provided in the sample code)
-- [MySQL](https://dev.mysql.com/)
 
 
 ### Installing
