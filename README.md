@@ -13,10 +13,6 @@ These instructions will get you a copy of the project up and running on your loc
      + Account: demo@katalon.com/8eml3nBz19rJ6kP8oCYK
 - [MySQL](https://dev.mysql.com/)    
 
-
-
-
-### Installing
 #### MySQL
 - User: demouser/demouser@2018
 - Database: jira_test
@@ -56,23 +52,19 @@ These instructions will get you a copy of the project up and running on your loc
 	demo@katalon.com,8eml3nBz19rJ6kP8oCYK
 	tom@katalon.com,1QpnA1G2cOTSJQLE4U3A
 ```
+### Setting Up
+- [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this repository
+- [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
 
-A step by step series of examples that tell you have to get a development env running
+### Executing a Test Case
+![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png?raw=true)
+1. Expand the Test Cases structure, where all the test cases are stored.
+2. Select the test case you want to execute
+3. Choose the browser for executing the test case
 
-```
-Step 1:
-	- Check out the code from this .git
+At the end of this README, you will find additional ways to execute automation test cases. 
 
-Step 2:
-	- Open Katalon Studio
-	- Open the project from Katalon Studio
-
-Step 3:
-	- Update configuration for integration: Jira, Katalon Analytics
-```
-
-## Running the tests
-
+## Test Scenarios
 The example in this project has different test data set sources for the data-driven approach:
 - xlsx (Excel)
 - csv (CSV files with common delimeters)
@@ -81,36 +73,3 @@ The example in this project has different test data set sources for the data-dri
 
 In Katalon Studio, data-driven approach happens at TestSuite level so the example contains different test suites for each data set sources.
 
-### Object Repository
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-## Contributing
-
-## Versioning
-
-## Authors
-
-## License
-
-## Acknowledgments
