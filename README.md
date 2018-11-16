@@ -36,21 +36,21 @@ These instructions will get you a copy of the project up and running on your loc
 - Sheet: valid_accounts
 ```
 	Username	        Password
-	demo@katalon.com	8eml3nBz19rJ6kP8oCYK
-	tom@katalon.com	        1QpnA1G2cOTSJQLE4U3A
+	demo@katalon.com	sPiHQ&YEa6ST`de+
+	tom@katalon.com	        ok{Ikwnm*wzsaEsD
 ```
 - Sheet: invalid_accounts
 ```
 	Username	        Password
-	jerry@katalon.com	K@tAl0n@#1304
+	jerry@katalon.com	gcI#UhR@m(:fsfYU
 	bella@katalon.com	jira@2018
 ```
 #### CSV
 - Comma delimeter
 ```
 	Username,Password
-	demo@katalon.com,8eml3nBz19rJ6kP8oCYK
-	tom@katalon.com,1QpnA1G2cOTSJQLE4U3A
+	demo@katalon.com,sPiHQ&YEa6ST`de+
+	tom@katalon.com,ok{Ikwnm*wzsaEsD
 ```
 ### Setting Up
 - [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this repository
